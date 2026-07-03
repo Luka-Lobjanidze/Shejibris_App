@@ -283,8 +283,8 @@ fun MatchCard(
 
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             MatchCard(
-                                                player1 = participantsItems.getOrNull(1) ?: "",
-                                                player2 = participantsItems.getOrNull(14) ?: "",
+                                                player1 = participantsItems.getOrNull(4) ?: "",
+                                                player2 = participantsItems.getOrNull(11) ?: "",
                                                 selected = winners[13],
                                                 onSelect = { winner ->
                                                     viewModel.setWinner(13, winner)
@@ -360,8 +360,8 @@ fun MatchCard(
 
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             MatchCard(
-                                                player1 = participantsItems.getOrNull(3) ?: "",
-                                                player2 = participantsItems.getOrNull(12) ?: "",
+                                                player1 = participantsItems.getOrNull(6) ?: "",
+                                                player2 = participantsItems.getOrNull(9) ?: "",
                                                 selected = winners[11],
                                                 onSelect = { winner ->
                                                     viewModel.setWinner(11, winner)
@@ -454,8 +454,8 @@ fun MatchCard(
                                     Column() {
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             MatchCard(
-                                                player1 = participantsItems.getOrNull(4) ?: "",
-                                                player2 = participantsItems.getOrNull(11) ?: "",
+                                                player1 = participantsItems.getOrNull(1) ?: "",
+                                                player2 = participantsItems.getOrNull(14) ?: "",
                                                 selected = winners[10],
                                                 onSelect = { winner ->
                                                     viewModel.setWinner(10, winner)
@@ -474,8 +474,8 @@ fun MatchCard(
 
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             MatchCard(
-                                                player1 = participantsItems.getOrNull(5) ?: "",
-                                                player2 = participantsItems.getOrNull(10) ?: "",
+                                                player1 = participantsItems.getOrNull(7) ?: "",
+                                                player2 = participantsItems.getOrNull(8) ?: "",
                                                 selected = winners[9],
                                                 onSelect = { winner ->
                                                     viewModel.setWinner(9, winner)
@@ -531,8 +531,8 @@ fun MatchCard(
                                     Column() {
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             MatchCard(
-                                                player1 = participantsItems.getOrNull(6) ?: "",
-                                                player2 = participantsItems.getOrNull(9) ?: "",
+                                                player1 = participantsItems.getOrNull(3) ?: "",
+                                                player2 = participantsItems.getOrNull(12) ?: "",
                                                 selected = winners[8],
                                                 onSelect = { winner ->
                                                     viewModel.setWinner(8, winner)
@@ -551,8 +551,8 @@ fun MatchCard(
 
                                         Row(verticalAlignment = Alignment.CenterVertically) {
                                             MatchCard(
-                                                player1 = participantsItems.getOrNull(7) ?: "",
-                                                player2 = participantsItems.getOrNull(8) ?: "",
+                                                player1 = participantsItems.getOrNull(5) ?: "",
+                                                player2 = participantsItems.getOrNull(10) ?: "",
                                                 selected = winners[7],
                                                 onSelect = { winner ->
                                                     viewModel.setWinner(7, winner)
